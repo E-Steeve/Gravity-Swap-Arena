@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Gravity Swap Arena</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="1200" height="600"></canvas>
+        <div id="ui">
+            <span id="p1Score" style="color: #44aaff">P1 Vies: 3</span>
+            <span id="p2Score" style="color: #ffaa44">P2 Vies: 3</span>
+        </div>
+
+
+        <div id="winnerMsg">VICTOIRE P1 !</div>
+
+
+        <div class="controls">
+            P1: W (Saut) A/D (Mvmt) S (Swap) Q (Attaque) |
+            P2: HAUT (Saut) GAUCHE/DROITE (Mvmt) BAS (Swap) K (Attaque)
+        </div>
+    </div>
+
+
+    <script src="game.js"></script>
+</body>
+</html>
